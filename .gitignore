@@ -1,5 +1,6 @@
-# Ignorar todos los archivos pdf
+# Ignorar todos los archivos pdf y docx
 *.pdf
+*.docx
 
 # No hacer seguimineto a la carpeta node_modules
 node_modules
