@@ -1,6 +1,24 @@
-// (Capa de Vista para las Tareas)
-// Este archivo define las funciones necesarias para renderizar
-// las tareas y los mensajes en JSON.
+/*
+2. Vista (View)
+  La 'capa de vista' (View) es responsable de la presentación 
+  de los datos, formateándolos para su entrega al cliente. En 
+  este caso, trabajamos con una API que devuelve los datos en 
+  formato JSON, lo que significa que la vista toma los datos 
+  procesados por la capa de control y los formatea en JSON 
+  antes de enviarlos de vuelta al cliente.
+
+  Esta capa es esencial para:
+    1. Separar la lógica de presentación de la lógica de negocio.
+    2. Garantizar que los datos se presenten de manera consistente 
+       y clara.
+    3. Facilitar la reutilización de los métodos de presentación 
+       en toda la aplicación.
+
+  Archivo: tareaVista.js (Capa de Vista para las Tareas)
+           Este archivo define las funciones necesarias para 
+           renderizar las tareas y los mensajes en JSON.
+*/
+
 
 // Función para renderizar una lista de tareas en formato JSON
 export function renderizarlistaTareas(tareas) {

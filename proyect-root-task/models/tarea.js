@@ -1,3 +1,19 @@
+/*
+1. Modelo (Model)
+  La 'capa de modelo' en una aplicación MVC es la encargada de 
+  representar la estructura de los datos y las operaciones que 
+  se pueden realizar sobre ellos. En este caso, el modelo 'Tarea' 
+  representa una tarea con atributos como id, titulo, descripcion 
+  y completado. Además, este modelo contiene métodos que permiten 
+  realizar operaciones como marcar una tarea como completada o 
+  validar sus atributos.
+
+Archivo: tarea.js (Modelo de Tarea)
+  Este archivo define el 'modelo Tarea', encapsulando tanto los 
+  atributos como los métodos necesarios para manipular los datos 
+  de una tarea.
+*/
+
 export default class Tarea {
   constructor(id, titulo, descripcion, completado = false) {
     this.id = id; // Identificador único de la tarea
