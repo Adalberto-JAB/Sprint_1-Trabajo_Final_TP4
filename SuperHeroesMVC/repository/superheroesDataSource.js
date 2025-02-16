@@ -1,4 +1,13 @@
-// repository/superheroesDataSource.js
+/*
+1. Capa de Persistencia
+
+Abstracción de la Persistencia
+
+Este archivo define una abstracción que otras clases de 
+persistencia deben implementar:
+
+repository/superheroesDataSource.js
+*/
 
 export default class SuperheroesDataSource {
   // Método abstracto para obtener los superhéroes
